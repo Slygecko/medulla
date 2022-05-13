@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.4" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Components\Medulla.Components.Library\Medulla.Components.Library.csproj" />
     <ProjectReference Include="..\..\Presentation\Assets\Medulla.Presentation.Assets.csproj" />
+    <ProjectReference Include="..\..\Components\Medulla.Components.Library.csproj" />
   </ItemGroup>
 
 </Project>
