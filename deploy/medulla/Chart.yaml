@@ -9,14 +9,11 @@ dependencies:
   version: "1.7.2"
   repository: "https://dapr.github.io/helm-charts/"
 - name: gitea
-  version: "1.16.7"
+  version: "5.0.7"
   repository: "https://dl.gitea.io/charts/"
-- name: node-red
-  version: "2.1.4"
-  repository: "https://k8s-at-home.com/charts/"
-- name: istio
+- name: istiod
   version: "1.13.3"
   repository: "https://istio-release.storage.googleapis.com/charts"
-- name: pingcap
+- name: tidb-operator
   version: "v1.3.2"
   repository: "https://charts.pingcap.org/"

@@ -1,0 +1,15 @@
+dependencies:
+- name: dapr
+  repository: https://dapr.github.io/helm-charts/
+  version: 1.7.2
+- name: gitea
+  repository: https://dl.gitea.io/charts/
+  version: 5.0.7
+- name: istiod
+  repository: https://istio-release.storage.googleapis.com/charts
+  version: 1.13.3
+- name: tidb-operator
+  repository: https://charts.pingcap.org/
+  version: v1.3.2
+digest: sha256:761cf4600009256a7f8331654fd0b1e7e8358fa52cc8688db3471554d55e7fc5
+generated: "2022-05-16T11:26:52.3683414-06:00"
