@@ -11,5 +11,11 @@ dependencies:
 - name: tidb-operator
   repository: https://charts.pingcap.org/
   version: v1.3.2
-digest: sha256:761cf4600009256a7f8331654fd0b1e7e8358fa52cc8688db3471554d55e7fc5
-generated: "2022-05-16T11:26:52.3683414-06:00"
+- name: base
+  repository: https://istio-release.storage.googleapis.com/charts
+  version: 1.13.3
+- name: argo-workflows
+  repository: https://charts.bitnami.com/bitnami
+  version: 2.0.2
+digest: sha256:f9dfdf34ae659bfaae6f4c25fcea9bb1e19f79807de705beed0363e98af0323c
+generated: "2022-05-17T12:30:59.727565-04:00"
