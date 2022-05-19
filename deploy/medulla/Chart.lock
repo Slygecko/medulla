@@ -14,8 +14,5 @@ dependencies:
 - name: base
   repository: https://istio-release.storage.googleapis.com/charts
   version: 1.13.3
-- name: argo-workflows
-  repository: https://charts.bitnami.com/bitnami
-  version: 2.0.2
-digest: sha256:f9dfdf34ae659bfaae6f4c25fcea9bb1e19f79807de705beed0363e98af0323c
-generated: "2022-05-17T12:30:59.727565-04:00"
+digest: sha256:1b14d6f95bacb048f33d75bc6d7caaadea4843ea3639a6fa1eeb6f4e496d38ea
+generated: "2022-05-17T15:24:44.008125-04:00"

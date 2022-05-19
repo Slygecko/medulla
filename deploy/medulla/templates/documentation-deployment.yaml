@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: documentation
+  name: documentation
+  namespace: {{ .Values.namepace }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: documentation
+  template:
+    metadata:
+      labels:
+        app: documentation
+    spec:
+      serviceAccountName: documentation-serviceaccount
+      containers:
+      - name: documentation
+        image: documentation:1.0.0

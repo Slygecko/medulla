@@ -20,6 +20,3 @@ dependencies:
 - name: base
   version: "1.13.3"
   repository: "https://istio-release.storage.googleapis.com/charts"
-- name: argo-workflows
-  version: "2.0.2"
-  repository: "https://charts.bitnami.com/bitnami"
