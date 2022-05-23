@@ -1,9 +1,22 @@
-name: Medulla
+name: medulla
 namespace: medulla-system
 
 replicaCount: 1
 
-image:
-  repository: shell-service
-  pullPolicy: Always
-  tag: ""
+shell:
+  image:
+    repository: shell
+    pullPolicy: Always
+    tag: ""
+
+identity:
+  image:
+    repository: identity
+    pullPolicy: Always
+    tag: ""
+
+documentation:
+  image:
+    repository: documentation
+    pullPolicy: Always
+    tag: ""

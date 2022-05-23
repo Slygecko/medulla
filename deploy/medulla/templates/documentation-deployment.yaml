@@ -4,7 +4,7 @@ metadata:
   labels:
     app: documentation
   name: documentation
-  namespace: {{ .Values.namepace }}
+  namespace: {{ .Values.namespace }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
