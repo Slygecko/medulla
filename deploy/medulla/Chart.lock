@@ -5,14 +5,14 @@ dependencies:
 - name: gitea
   repository: https://dl.gitea.io/charts/
   version: 5.0.7
-- name: istiod
-  repository: https://istio-release.storage.googleapis.com/charts
-  version: 1.13.3
 - name: tidb-operator
   repository: https://charts.pingcap.org/
   version: v1.3.2
 - name: base
   repository: https://istio-release.storage.googleapis.com/charts
   version: 1.13.3
-digest: sha256:1b14d6f95bacb048f33d75bc6d7caaadea4843ea3639a6fa1eeb6f4e496d38ea
-generated: "2022-05-17T15:24:44.008125-04:00"
+- name: istiod
+  repository: https://istio-release.storage.googleapis.com/charts
+  version: 1.13.3
+digest: sha256:faab5b87a1c5f6494a3fbe32b9c6160726013285d833d6e47714180fb4ff6ce5
+generated: "2022-05-24T14:14:27.356991-04:00"
