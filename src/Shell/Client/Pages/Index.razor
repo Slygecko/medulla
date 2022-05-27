@@ -1,0 +1,65 @@
+﻿@* Licensed to the Medulla Contributors under one or more agreements. *@
+@* The Medulla Contributors licenses this file to you under the Apache 2.0 license. *@
+@* See the LICENSE file in the project root for more information. *@
+
+@page "/"
+
+@attribute [Authorize]
+
+<div class="border-bottom">
+    <div class="container-lg p-responsive text-center py-6">
+        <h1 class="h1">
+            Apps
+        </h1>
+        <p class="f4 color-fg-muted col-md-6 mx-auto">
+            Browse Medulla apps.
+        </p>
+    </div>
+</div>
+
+<div class="container-lg p-responsive mt-6">
+    <ul class="d-flex flex-wrap flex-justify-start flex-items-stretch list-style-none gutter my-4">
+
+        <li class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="position-relative hover-grow height-full text-center border color-border-muted color-bg-default p-5">
+                <a href="/editor" class="no-underline d-flex flex-column flex-justify-center">
+                    <img src="/img/editor-app.svg" height="64" width="64" class="mx-auto mb-3" style="background-color: #b9b9b9;" />
+                    <p class="f3 lh-condensed text-center Link--primary mb-0 mt-1">
+                        Editor
+                    </p>
+                    <p class="f5 color-fg-muted text-center mb-0 mt-1">
+                        Design applications that can be used with Medulla.
+                    </p>
+                </a>
+            </div>
+        </li>
+
+        <li class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="position-relative hover-grow height-full text-center border color-border-muted color-bg-default p-5">
+                <a href="/app/app1" class="no-underline d-flex flex-column flex-justify-center">
+                    <img src="/img/default-app.svg" height="64" width="64" class="mx-auto mb-3" style="background-color: #b9b9b9;" />
+                    <p class="f3 lh-condensed text-center Link--primary mb-0 mt-1">
+                        App 1
+                    </p>
+                    <p class="f5 color-fg-muted text-center mb-0 mt-1">
+                        First test app.
+                    </p>
+                </a>
+            </div>
+        </li>
+
+        <li class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="position-relative hover-grow height-full text-center border color-border-muted color-bg-default p-5">
+                <a href="/app/app2" class="no-underline d-flex flex-column flex-justify-center">
+                    <img src="/img/default-app.svg" height="64" width="64" class="mx-auto mb-3" style="background-color: #b9b9b9;" />
+                    <p class="f3 lh-condensed text-center Link--primary mb-0 mt-1">
+                        App 2
+                    </p>
+                    <p class="f5 color-fg-muted text-center mb-0 mt-1">
+                        Second test app.
+                    </p>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
