@@ -14,9 +14,3 @@ dependencies:
 - name: tidb-operator
   version: "v1.3.2"
   repository: "https://charts.pingcap.org/"
-- name: base
-  version: "1.13.3"
-  repository: "https://istio-release.storage.googleapis.com/charts"
-- name: istiod
-  version: "1.13.3"
-  repository: "https://istio-release.storage.googleapis.com/charts"

@@ -8,11 +8,5 @@ dependencies:
 - name: tidb-operator
   repository: https://charts.pingcap.org/
   version: v1.3.2
-- name: base
-  repository: https://istio-release.storage.googleapis.com/charts
-  version: 1.13.3
-- name: istiod
-  repository: https://istio-release.storage.googleapis.com/charts
-  version: 1.13.3
-digest: sha256:faab5b87a1c5f6494a3fbe32b9c6160726013285d833d6e47714180fb4ff6ce5
-generated: "2022-05-24T14:14:27.356991-04:00"
+digest: sha256:69d4c0f218dc8aa96f3348eeeb63a8ba3bcfc2f2d881e6cfce94710d54921d47
+generated: "2022-05-27T11:18:35.294291-04:00"

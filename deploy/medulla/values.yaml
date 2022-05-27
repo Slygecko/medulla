@@ -1,5 +1,3 @@
-name: medulla
-namespace: medulla-system
 
 replicaCount: 1
 
